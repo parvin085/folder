@@ -1,0 +1,107 @@
+
+.main
+{
+    width: 950px;
+    min-height: 400px;
+    float: left;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 20px;
+}
+.child
+{
+    width: 280px;
+    min-height: 350px;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-box-shadow: 1px 3px 24px -7px rgba(33, 33, 35, 1);
+-moz-box-shadow: 1px 3px 24px -7px rgba(33, 33, 35, 1);
+box-shadow: 1px 3px 24px -7px rgba(33, 33, 35, 1);
+   
+}
+.child:hover{
+    -webkit-box-shadow: 1px 3px 24px 5px rgba(33, 33, 35, 1);
+    -moz-box-shadow: 1px 3px 24px 5px rgba(33, 33, 35, 1);
+    box-shadow: 1px 3px 24px 5px rgba(33, 33, 35, 1)
+}
+.img
+{
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+    float: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+.img img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    float: left;
+}
+.waterfull{
+    width: 100%;
+    height: 100px;
+    /* background-color: blueviolet; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    margin-bottom: 20px;
+
+    
+}
+.kvadrat
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 100%;
+    
+}
+.kvadrat img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+.child h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+.p{
+    width: 100%;
+    min-height: 10px;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.p p{
+    margin: 0;
+}
+
+.bootomSide{
+    width: 100%;
+    min-height: 5px;
+    float: left;
+    background-color:#6420FF;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
